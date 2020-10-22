@@ -1,3 +1,5 @@
+# rubocop : disable Layout/EndOfLine
+
 require 'test_helper'
 
 class PostTest < ActiveSupport::TestCase
@@ -49,3 +51,5 @@ class PostTest < ActiveSupport::TestCase
     assert_not @post.valid?
   end
 end
+
+# rubocop : enable Layout/EndOfLine

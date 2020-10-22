@@ -1,3 +1,5 @@
+# rubocop : disable Layout/EndOfLine
+
 require 'test_helper'
 
 class CommentTest < ActiveSupport::TestCase
@@ -39,3 +41,5 @@ class CommentTest < ActiveSupport::TestCase
     assert_not @comment.valid?
   end
 end
+
+# rubocop : enable Layout/EndOfLine

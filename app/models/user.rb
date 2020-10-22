@@ -1,3 +1,5 @@
+# rubocop : disable Layout/EndOfLine
+
 class User < ApplicationRecord
   has_many :posts, dependent: :destroy
 
@@ -9,3 +11,5 @@ class User < ApplicationRecord
 
   validates :password, presence: true, uniqueness: { case_sensitive: false }, length: { minimum: 6, maximum: 16 }
 end
+
+# rubocop : enable Layout/EndOfLine

@@ -1,3 +1,5 @@
+# rubocop : disable Layout/EndOfLine
+
 class Comment < ApplicationRecord
   belongs_to :post
 
@@ -7,3 +9,5 @@ class Comment < ApplicationRecord
 
   validates :description, presence: true, length: { maximum: 100 }
 end
+
+# rubocop : enable Layout/EndOfLine
