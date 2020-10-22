@@ -12,6 +12,8 @@ class CommentTest < ActiveSupport::TestCase
     @comment = Comment.new(title: "Cyber Security", description: "Cyber security is an important area to consider for your organization")
 
     @comment.post = @post
+
+    @comment.user = @user
   end
 
   test "comment should be valid" do

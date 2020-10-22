@@ -20,7 +20,7 @@ test:
   <<: *default
   database: db/test.sqlite3
   pool: 50
-  timeout: 3000000
+  timeout: 10000000
 
 production:
   <<: *default
