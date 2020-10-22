@@ -13,7 +13,7 @@ The Microverse Building with Active Record project for Ruby on Rails that consis
 - Deployment with Heroku
 
 ### Rails gems:
-- Mini tests
+- MiniTests
 
 ### Additional gems:
 - rubocop
@@ -24,7 +24,12 @@ The Microverse Building with Active Record project for Ruby on Rails that consis
 
 
 ## Getting Started
+Can download this code with any method and over the terminal with the commands:
 
+- git clone https://github.com/jose-Abel/micro-reddit.git
+- In order to test the relationship between User, Post and Comment model open the Rails console from the terminal with the command
+- rails console (or it could be "rails c")
+- Once in the Rails console, can test for the relationship between user and user2, instance objects of the User model, post and post2 objects instance of the Post class and comment and comment2 objects instance of the Comment class.
 
 ## Run linters
 For the linters, this tests runs once you make a PR, if you have it in the respective folder. In order to have this tests, after cloning this project:
