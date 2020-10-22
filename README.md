@@ -28,11 +28,11 @@ The Microverse Building with Active Record project for Ruby on Rails that consis
 
 ## Run linters
 For the linters, this tests runs once you make a PR, if you have it in the respective folder. In order to have this tests, after cloning this project:
- - cd Ruby-Capstone-Telegram-Bot
+ - cd micro-reddit
 - From the root of this project create the folders .github/workflows
 - Add a copy of [.github/workflows/tests.yml](https://github.com/microverseinc/linters-config/blob/master/ruby/.github/workflows/tests.yml) to the .github/workflows
 
-## Run Rails default test mini test
+## Run Rails mini test
 To run all of the tests, open the terminal from the root of the program and type the command:
 
 - rails test
@@ -42,7 +42,7 @@ The instructions to setup this tests are at this repository: [Rubocop instructio
 
 To download rubocop and run the tests on your local environment, this are the commands to type in the Linux, Mac terminal or Windows cmd:
 - gem 'rubocop'
-- cd Ruby-Capstone-Telegram-Bot
+- cd micro-reddit
 - copy this file [.rubocop.yml](https://github.com/microverseinc/linters-config/blob/master/ruby/.rubocop.yml) in the root directory of the project
 - type in the terminal 'rubocop'
 
